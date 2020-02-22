@@ -2,7 +2,7 @@ zuul:
   routes:
     greetings:
       path: /greeting/**
-      serviceId: GREETING-SERVICE
+      serviceId: greeting-service
       stripPrefix: false
 eureka:
   client:
