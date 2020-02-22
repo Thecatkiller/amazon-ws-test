@@ -1,3 +1,2 @@
-server.port:8005
-rolling:
-  data: "test" 
+server:
+  port: 8005
