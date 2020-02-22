@@ -1,3 +1,8 @@
+spring:
+  cloud:
+    config:
+      name: common-service-properties
+# Discovery Server Access
 zuul:
   routes:
     greetings:
@@ -7,8 +12,8 @@ zuul:
 eureka:
   client:
     registerWithEureka: false
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+    #serviceUrl:
+      #defaultZone: http://localhost:8760/eureka/
 
 server:
   port: 8080   # HTTP (Tomcat) port
