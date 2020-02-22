@@ -5,6 +5,10 @@ zuul:
       path: /greeting/**
       serviceId: greeting-service
       stripPrefix: false
+    authorization:
+      path: /authorization/**
+      serviceId: auth-config-server
+      stripPrefix: false
 eureka:
   client:
     registerWithEureka: false
