@@ -1,6 +1,6 @@
 # Discovery Server Access
 server:
-  port: 9002
+  port: ${PORT}
 eureka:
   client:
     serviceUrl:
