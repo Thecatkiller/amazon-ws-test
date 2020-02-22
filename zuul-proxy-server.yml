@@ -8,8 +8,8 @@ zuul:
 eureka:
   client:
     registerWithEureka: false
-    #serviceUrl:
-      #defaultZone: http://localhost:8760/eureka/
+    serviceUrl:
+      defaultZone: http://localhost:8760/eureka/
 
 server:
   port: 8080   # HTTP (Tomcat) port
