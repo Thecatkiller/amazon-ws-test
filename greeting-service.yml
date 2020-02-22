@@ -1,5 +1,1 @@
 # Discovery Server Access
-spring:
-  cloud:
-    config:
-      name: common-service-properties
