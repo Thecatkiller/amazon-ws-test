@@ -1,3 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost;databaseName=config_authentication
+    username: sa
+    password: sa
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    show-sql: true
+    hibernate:
+     dialect: org.hibernate.dialect.SQLServer2012Dialect
+     ddl-auto: create-drop
 server:
   port: ${PORT:0}
 eureka:
