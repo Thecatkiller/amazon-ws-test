@@ -1,4 +1,7 @@
 # Discovery Server Access
+spring:
+  application:
+    sign-in-key: 'diego'
 server:
   port: ${PORT}
 eureka:
