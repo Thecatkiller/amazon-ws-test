@@ -1,5 +1,6 @@
 # Discovery Server Access
 zuul:
+  prefix: /api
   routes:
     greetings:
       path: /greeting/**
@@ -8,7 +9,7 @@ zuul:
     authorization:
       path: /authorization/**
       serviceId: auth-config-server
-      stripPrefix: false
+      stripPrefix: true
 eureka:
   client:
     registerWithEureka: false
