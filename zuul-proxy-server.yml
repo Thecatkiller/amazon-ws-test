@@ -1,5 +1,6 @@
 # Discovery Server Access
 zuul:
+  sensitive-headers: Cookie,Set-Cookie
   prefix: /api
   routes:
     greetings:
