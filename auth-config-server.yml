@@ -13,6 +13,7 @@ server:
   port: ${PORT:0}
 eureka:
   instance:
+    leaseRenewalIntervalInSeconds: 5
     hostname: localhost
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
   client:
