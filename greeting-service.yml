@@ -1,4 +1,9 @@
 # Discovery Server Access
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 spring:
   application:
     sign-in-key: 'diego'
