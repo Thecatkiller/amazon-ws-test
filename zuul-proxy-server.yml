@@ -11,6 +11,10 @@ zuul:
       path: /authorization/**
       serviceId: auth-config-server
       stripPrefix: true
+    cypher:
+      path: /cypher/**
+      serviceId: SERVICE-CYPHER
+      stripPrefix: true
 eureka:
   client:
     registerWithEureka: false
