@@ -6,6 +6,7 @@ microservices:
   config:
     authentication:
       login:
+        header-auth: Basic YWRtaW46MTIzNDU2
         path: /oauth/token
         username: '{cipher}a0e86dafb2c8fd33bca2d0ac09df6af7144c89383cc0387a8e4eb73ee1ede71a4e8375822095ff7ea637580b6b01b909'
         password: '{cipher}e6ed92bc1d3d4dd84d69568162de0117febb084163b29ba55b40516da7fe10ac'
