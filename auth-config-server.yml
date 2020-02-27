@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:sqlserver://localhost;databaseName=config_authentication
-    username: {cipher}96bb9a200c8a5ca9e931f7d052586a4877dba3496804ed8ad438f44331f2c7ef
-    password: {cipher}41d04fdbbb08fb10a8cc46f8b9146d4aa12f361c7519823c2a4abcb2de860f9d
+    username: '{cipher}96bb9a200c8a5ca9e931f7d052586a4877dba3496804ed8ad438f44331f2c7ef'
+    password: '{cipher}41d04fdbbb08fb10a8cc46f8b9146d4aa12f361c7519823c2a4abcb2de860f9d'
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
   jpa:
     show-sql: true
