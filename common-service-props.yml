@@ -1,7 +1,7 @@
 # Discovery Server Access
 logging:
   level:
-    com.netflix.discovery.shared.resolver.*: 'WARM' 
+    com.netflix.discovery.shared.resolver.*: 'WARN'
 spring.cloud.loadbalancer.ribbon.enabled: false
 management:
   endpoints:
