@@ -4,11 +4,11 @@ zuul:
   prefix: /api
   routes:
     ms-authentication-service:
-      path: /authentication/**
+      path: /**
       serviceId: app-ms-authentication
       stripPrefix: false
     greetings:
-      path: /greeting/**
+      path: /**
       serviceId: greeting-service
       stripPrefix: false
     authorization:
