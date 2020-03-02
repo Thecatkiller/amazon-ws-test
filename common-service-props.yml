@@ -17,7 +17,7 @@ microservices:
       isSwaggerEnabled : true
     authentication:
       login:
-        header-auth: Basic YWRtaW46MTIzNDU2
+        header-auth: '{cipher}e66f038467834b1f20573381ca0d1e9cd62f2fd066c0807b2baded5b541b53f63fc56f81b4d58648250f9a5385223a31'
         path: /oauth/token
         username: '{cipher}a0e86dafb2c8fd33bca2d0ac09df6af7144c89383cc0387a8e4eb73ee1ede71a4e8375822095ff7ea637580b6b01b909'
         password: '{cipher}e6ed92bc1d3d4dd84d69568162de0117febb084163b29ba55b40516da7fe10ac'
