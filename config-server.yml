@@ -1,0 +1,9 @@
+encrypt:
+  key: fje83Ki8403Iod87dne7Yjsl3THueh48jfuO9j4U2hf64Lofje83Ki8403Iod87dne7Yjsl3THueh48jfuO9j4U2hf64Lofje83Ki8403Iod87dne7Yjsl3THueh48jfuO9j4U2hf64LoDSADASGD1
+server:
+  port: ${PORT:8888}
+spring:
+  security:
+    user:
+      name: '{cipher}ff0ee941fc08c3283d9bff7d746ceef0e8cdea348048e3e44714ae6f44616016'
+      password: '{cipher}8b3a026aefbef1c248ae19590703756a7882aa50611eccc5dbd346cfe4907fa1'
