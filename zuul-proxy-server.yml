@@ -8,7 +8,7 @@ zuul:
       serviceId: app-ms-authentication
       stripPrefix: false
     greetings:
-      path: /**
+      path: /greeting-service/**
       serviceId: greeting-service
       stripPrefix: false
     authorization:
