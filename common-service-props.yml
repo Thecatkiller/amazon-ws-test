@@ -11,7 +11,7 @@ management:
 microservices:
   proxy:
     zuul:
-      url: http://localhost:8080/api/
+      url: http://ip-172-31-24-187.us-east-2.compute.internal:8080/api/
   config:
     swagger:
       isSwaggerEnabled : true
@@ -33,8 +33,8 @@ spring:
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 5
-    hostname: localhost
+    hostname: ip-172-31-24-187.us-east-2.compute.internal
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
   client:
     serviceUrl:
-      defaultZone: http://localhost:8760/eureka/
+      defaultZone: http://ip-172-31-24-187.us-east-2.compute.internal:8760/eureka/
